@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@0x/subproviders": "==6.6.5",
+    "opensea-js": "==6.1.9",
+    "web3": "==1.7.1",
+    "yargs": "==17.4.1"
+  }
+}
