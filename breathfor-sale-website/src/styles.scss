@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('./styles/_reset.scss');
+@import url('./styles/_variables.scss');
+@import url('./styles/_typography.scss');
+@import url('./styles/_animation.scss');
+
+::selection {
+    color: #fff;
+    background: var(--accent-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--light-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--dark-color);
+    border-radius: 24px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-color-hover);
+  }
+
+body {
+    min-height: 100vh;
+    color: var(--font-color);
+    background: url('assets/images/BG6.png') no-repeat;
+    background-size: cover;
+}
+
+
+

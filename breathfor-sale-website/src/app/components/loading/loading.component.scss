@@ -1,0 +1,27 @@
+.loading {
+    margin-left: 16rem;
+    margin-right: 16rem;
+
+    &__image {
+        stroke-width: 2px;
+        stroke-dasharray: 2400;
+        animation: anim 5s alternate-reverse infinite;
+    }
+
+    &__title {
+        font-size: 4rem;
+        font-family: 'Sunrise';
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        letter-spacing: 2px;
+        animation: text 5s alternate-reverse infinite;
+    }
+
+    &__text {
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-family: 'Roboto';
+        line-height: 3.5rem;
+        animation: text 5s alternate-reverse infinite;
+    }
+}

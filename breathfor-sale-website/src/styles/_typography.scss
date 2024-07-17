@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+@font-face {
+    font-family: 'Sunrise';
+    src: url('../assets/fonts/SangBleuSunrise-Regular-WebTrial.eot');
+    src: local('Sunrise Regular'), local('Sunrise-Regular'),
+        url('../assets/fonts/SangBleuSunrise-Regular-WebTrial.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/SangBleuSunrise-Regular-WebTrial.woff2') format('woff2'),
+        url('../assets/fonts/SangBleuSunrise-Regular-WebTrial.woff') format('woff'),
+        url('../assets/fonts/SangBleuSunrise-Regular-WebTrial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Sunrise';
+    src: url('../assets/fonts/SangBleuSunrise-Bold-WebTrial.eot');
+    src: local('Sunrise Bold'), local('Sunrise-Bold'),
+        url('../assets/fonts/SangBleuSunrise-Bold-WebTrial.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/SangBleuSunrise-Bold-WebTrial.woff2') format('woff2'),
+        url('../assets/fonts/SangBleuSunrise-Bold-WebTrial.woff') format('woff'),
+        url('../assets/fonts/SangBleuSunrise-Bold-WebTrial.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Sunrise';
+    src: url('../assets/fonts/SangBleuSunrise-Light-WebTrial.eot');
+    src: local('Sunrise Italic'), local('Sunrise-Italic'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.woff2') format('woff2'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.woff') format('woff'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Sunrise';
+    src: url('../assets/fonts/SangBleuSunrise-RegularItalic-WebTrial.eot');
+    src: local('Sunrise Lighter'), local('Sunrise-Lighter'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.woff2') format('woff2'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.woff') format('woff'),
+        url('../assets/fonts/SangBleuSunrise-Light-WebTrial.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+html {
+    font-size: 8px;
+    font-family: 'Sunrise', serif !important;
+}

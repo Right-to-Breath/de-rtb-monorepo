@@ -70,7 +70,7 @@ OS_CMD = "{} auction.js -n {}"
 STATE_PATH = "./state.pkl"
 ERROR_STORAGE = "./error_users.pkl"
 URL_STORAGE = "./url_users.pkl"
-TELEGRAM_BOT_TOKEN = "5319524868:AAHf1EsmAlulnf23h_bSWoiXVb7O0YZLt4k"
+TELEGRAM_BOT_TOKEN = "3319324338:AABc2EsnAlulnf23h_bSWoiXVb7O0YZLt4k"
 
 PATH_TO_COLLECTION = f"/Users/jeanpaulruizdepraz/Documents/software/sni/breath_py/collections/{COLLECTION}"
 NODE_PATH = "/Users/paul/.nvm/versions/node/v16.14.2/bin/node --no-warnings"

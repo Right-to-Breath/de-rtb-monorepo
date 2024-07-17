@@ -1,0 +1,48 @@
+.item {
+    min-width: 82vw;
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        margin-bottom: 2rem;
+        background: #eee;
+        width: 100%;
+        .breath {
+            width: 0;
+            height: .8rem;
+            border-bottom-left-radius: 0;
+            background: var(--primary-color);
+            animation: progressbar 60s alternate infinite;
+        }
+
+        .progressbar {
+            height: .5rem;
+            width: 0;
+            background: var(--accent-color);
+            animation: progressbar 60s alternate-reverse infinite;
+        }
+    }
+}
+@media screen and (min-width: 768px) { 
+    .item {
+        min-width: 62vw;
+    }
+}
+
+@media screen and (min-width: 1024px) { 
+    .item {
+        min-width: 34vw;
+    }
+}
+
+@media screen and (min-width: 1296px) { 
+    .item {
+        h3 {
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+}
